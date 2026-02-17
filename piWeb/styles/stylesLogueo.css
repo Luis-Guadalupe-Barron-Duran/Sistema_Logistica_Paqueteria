@@ -206,8 +206,8 @@ body {
 .boton--primario {
   background: linear-gradient(180deg, #f2c44e 0%, #d4a235 100%);
   color: #ffffff;
-  
 }
+
 .boton--primario:hover {
   background: linear-gradient(180deg, #d4a235 0%, #f2c44e 100%);
 }
