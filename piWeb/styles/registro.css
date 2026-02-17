@@ -96,6 +96,8 @@ body {
   position: relative;
   margin-left: -100px;
   z-index: 2;
+  max-height: 90vh;
+  overflow-y: auto;
 }
 .tarjeta-formulario h2 {
   margin: 0 0 6px 0;
@@ -204,6 +206,7 @@ body {
 .boton--primario {
   background: linear-gradient(180deg, #f2c44e 0%, #d4a235 100%);
   color: #ffffff;
+  
 }
 .boton--primario:hover {
   background: linear-gradient(180deg, #d4a235 0%, #f2c44e 100%);
@@ -280,7 +283,7 @@ body {
 }
 
 .pie-pagina__contenido a {
-  color: #6d79a2;
+  color: #ffffff;
   text-decoration: none;
 }
 
